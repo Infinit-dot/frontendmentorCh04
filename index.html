@@ -6,29 +6,46 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Profile card component</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main class="container">
+    <section>
+      <div class="card">
+        <div class="card__bg">
+          <img class="card__img" src="images/image-victor.jpg" alt="">
+        </div>
+        <div class="card__info">
+          <h1 class="name">Victor Crest <span>26</span></h1>
+          <p class="city"> London</p>
+        </div>
+        <ul class="stats">
+          <li>
+            <p class="numbers"> 80K</p>
+            <p class="media">Followers</p>
+          </li>
+          <li>
+            <p class="numbers">803K</p>
+            <p class="media">Likes</p>
+          </li>
+          <li>
+            <p class="numbers">1.4K</p>
+            <p class="media"> Photos</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
+<footer>
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Edyta</a>.
   </div>
+</footer>
+
 </body>
 </html>
